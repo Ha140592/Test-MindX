@@ -29,6 +29,6 @@ function changeBackground() {
 copyColorBtn.addEventListener('click', copyHexcode)
 function copyHexcode() {
    localStorage.setItem('color',`${showColor.value}`);
-   alert('Your hex code is copied!')
+   alert(`Copy ${showColor.value}`);
 }
 
